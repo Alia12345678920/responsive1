@@ -53,10 +53,11 @@ class FractionallySizedBoxApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: const Text('FractionallySizedBox Sample')),
-        body: const FractionallySizedBoxExample(),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: Responsive1()
+
+
+
     );
   }
 }
