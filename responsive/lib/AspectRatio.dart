@@ -30,14 +30,16 @@ class _Responsive3State extends State<Responsive3> {
       ),
       body: AspectRatio(
         aspectRatio: 3 / 2,
-        child: Container(
-          color: Colors.black,
-          child: const Center(
-            child: FlutterLogo(
-              size: 100,
-            ),
-          ),
-        ),
+         child:  Image.asset("icon/ic.png"),
+
+        //  Container(
+        //   color: Colors.black,
+        //   child: const Center(
+        //     child: FlutterLogo(
+        //       size: 100,
+        //     ),
+        //   ),
+        // ),
       ),
     );
   }
